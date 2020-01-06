@@ -1,0 +1,16 @@
+.CartList__option {
+    font-size: 20px;
+    display: grid;
+    grid-template-areas: "key cost" "value value";
+    margin-top: 20px;
+  }
+  
+  .CartList__option__label {
+    font-weight: bold;
+    grid-area: key
+  }
+  
+  .CartList__option__cost {
+    grid-area: cost;
+    text-align: right;
+  }

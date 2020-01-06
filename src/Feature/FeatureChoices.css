@@ -1,0 +1,12 @@
+.feature__option:not(.feature__selected) {
+    cursor: pointer;
+  }
+  
+  .feature__option {
+    margin-top: 4px;
+    padding: 2px;
+  }
+  
+  .feature__selected {
+    background: rgb(167, 168, 255);
+  }

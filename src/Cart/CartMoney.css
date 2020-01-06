@@ -1,0 +1,16 @@
+.CartList__CartMoney {
+    font-size: 22px;
+    display: flex;
+    margin-top: 15px;
+    border-top: solid 1px rgb(0, 0, 0);
+  }
+  
+  .CartList__CartMoney__label {
+    font-weight: bold;
+    flex: 5;
+  }
+  
+  .CartList__CartMoney__value {
+    flex: 1;
+    text-decoration: underline;
+  }
